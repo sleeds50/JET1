@@ -1,0 +1,269 @@
+---
+title: "NAJ, JET 1: Assignment 1"
+author: "Stuart Leeds"
+date: "`r Sys.Date()`"
+output: pdf_document
+bibliography: ../common/JET1.bib
+csl: ../common/apa.csl
+link-citations: yes
+toc: yes
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+# Assignment 1.1
+
+## (i) List THREE physical and THREE optical properties (including their values) for Aquamarine.
+
+Three physical properties for Aquamarine are:
+
+1. Aquamarine is fairly hard. Hardness is a measure of the scratch-resistance of gemstones [@hallGemstones2021, p.16]. Moh's scale of hardness for Aquamarine is $7{\frac{1}{2}}$ [@hallGemstones2021, p.76], meaning that Aquamarine can be scratched by a gemstone of a higher hardness, and will scratch one of a lower value.
+2. Specific Gravity (SG) indicates a gemstones density [@hallGemstones2021, p.16]. Aquamarine (SG: 2.69), will not feel as heavy as, for example, Goshenite (SG: 2.80) [@hallGemstones2021, p.77]; and is the least dense gemstone of the beryl 'family'.
+3. Aquamarine has a poor cleavage direction [@hallGemstones2021, p.17] so may leave a less smooth surface when broken along its internal atomic structure than for example, diamond, which has perfect cleavage.
+
+Three optical properties for Aquamarine are:
+
+1. Colour: shades of blue. In modern times valued colours are sky-blue and dark-blue, compared to the 'sea-green' preferred in the 19th Century [@hallGemstones2021, p.76].
+2. The lustre of Aquamarine is described as _vitreous_ [@hallGemstones2021, p.76], meaning a 'glass-like' appearance [@hallGemstones2021, p.22].
+3. The Refractive Index (RI) is a measurement of how much light passes through a gemstone, rather than reflects off a polished surface [@hallGemstones2021, p.21]. The RI of Aquamarine is 1.57-1.58 [@hallGemstones2021, p.76]
+
+
+## (ii) Name SIX other members of the Beryl family of gemstones.
+
+1. Emerald (green) [@hallGemstones2021, p.75]
+2. Heliodor (yellow) [@hallGemstones2021, p.77]
+3. Goshenite (colourless) [@hallGemstones2021, p.77]
+4. Morganite (pink/peach) [@hallGemstones2021, p.78]
+5. Red beryl/Bixbite (red) [@hallGemstones2021, p.78]
+6. Brown beryl (brown) [@najGemstones2022, p.4]
+
+
+# Assignment 1.2
+
+## Throughout its history Tiffany & Co have introduced several previously unknown gemstones to the jewellery world. Name THREE such gemstones listing their colour and Mohs hardness value
+
+Three gemstones introduced by Tiffany that were previously unknown to the jewellery 
+world are: kunzite (introduced by Dr. G.F.Kunz in 1902), morganite (in 1910); and tanzanite (introduced by Tiffany, 1968) [@tiffany&co.LegacyDiscovery2022].
+
+Their colour and Moh's hardness values are:
+
+__Kunzite__ (colour: lilac-pink; Moh: $7$); and is actually a variety of Spodumene [@hallGemstones2021, p.120].
+
+__Morganite__ (colour: pink, rose, peach or violet; Moh: $7{\frac{1}{2}}$) [@hallGemstones2021, p.78].
+
+__Tanzanite__ (colour: green and yellow (in Tanzania and Kenya), Moh: $6{\frac{1}{2}}$) is a variety of Zoisite [@hallGemstones2021, p.116]
+
+
+# Assignment 1.3
+
+## Describe FIVE precautions you would need to take into account when measuring a Customer’s finger size.
+
+1. Ensure that your customer is not tense; and their hand is relaxed before you 
+attempt to size their finger.
+
+2. Be aware of weather conditions. Hot weather can cause fingers can swell making 
+the size too big so a ring may slip off a finger once the hand has cooled down. 
+The opposite effect in cold weather as the finger would swell once warmed, causing 
+the ring to be too tight. Ensuring your customer's hand is 'room temperature' to 
+give a more accurate measurement.
+
+3. Equally, fingers can swell due to muscle tension when carrying excessive baggage 
+(for example, shoulder bags). In this case, make sure the customer is free from 
+carrying bags before measuring their finger size.
+
+4. Be aware that engagement rings might need adjusting after a wedding ring is in 
+place, since they are worn higher up the finger.
+
+5. If your are inexperienced, ask a colleague to check your sizing.
+
+All information taken from @najRings2022
+
+
+# Assignment 1.4
+
+## (i) What are the two types of laser hallmarking.
+
+1. Outline laser mark (also known as incuse mark).
+
+2. Relief laser mark.
+
+## (ii) Describe what type of item is more suited to each type of lasering.
+
+Outline laser marking is more suitable to use on delicate items of finished jewellery. 
+For example, jewellery that may be hollow or of an intricate design, where it would be
+difficult to use traditional methods of hand-punch or hydraulic press hallmarking 
+that would cause  damage due to the pressure used.
+
+On the other hand, relief laser marking can be used on large objects such as, 
+silverware, key-rings or money clips, where the item is large enough to use the 
+hallmark as as feature or display mark. This is carried out with precision, causing 
+no damage [@najHallmarking2022].
+
+
+# Assignment 1.5
+
+## Upselling is an important trait of a good sales consultant. Using different products list THREE examples of upselling.
+
+1. _Rings_: explaining the differences between platinum, palladium, yellow or white
+gold [@najSellingCustomerCare2022]; and the benefits of various carat fineness (ct)
+in, for example, 9ct, 18ct or 24ct gold [@najGoldPlatinumPalladium2022], would help
+the customer to understand the quality of the ring.
+
+2. _High-end watches_: showing the finer details of prestigious pieces [@najSellingCustomerCare2022]. 
+Perhaps encouraging the customer that buying one could be a good investment.
+
+3. _Gemstones_: describe the cut of the gemstone, for example. One could show how
+light reflects off the facets giving the gemstone its lustre [@hallGemstones2021],
+which may help the customer to understand the meaning of its description.
+
+
+# Assignment 1.6
+
+## The Princess-cut Diamond is a very popular choice for many customers. List FIVE advantages & ONE disadvantage of the Princess-cut Diamond.
+
+Five advantages of the Princess-cut Diamond are:
+
+1. An increased 'sparkle' due to the extra number of facets (N=78 [@najDiamonds2022],
+though there could be between 49 and 78 facets [@dundekDiamonds2022, p.39].
+
+2. The cut lends itself to good effect on deep stones, which helps retain carat
+weight and the affected cost.
+
+Due to the number of cuts:
+
+3. The brilliance and fire produced, is increased.
+
+4. Colouration is not as noticeable in a Princess-cut diamond.
+
+5. Inclusions are not so visible.
+
+One _disadvantage_ of the Princess-cut diamond is that the points in the corners of
+the square stone are susceptible to damage; and should be protected to help prevent
+chipping [@najDiamonds2022].
+
+
+# Assignment 1.7
+
+## What is the difference between chasing and engraving.
+
+Chasing and engraving are both techniques to add designs to jewellery. The difference
+is that chasing involves embossing shapes or letters into the metal with shaped
+punches; and engraving creates designs by removing, or cutting into, metal [@najManufacturing2022] with specialist engraving tools.
+
+Another difference is that engraving can also be used on gemstones, and is particularly
+used in creating a family crest or a persons' initials on a signet ring [@najRings2022].
+
+
+# Assignment 1.8
+
+## Describe FIVE properties that make silver such a popular precious metal in jewellery.
+
+There are many properties of silver for example, it is relatively inexpensive; and
+has similar qualities to gold. Five properties of silver are, 1. it is soft
+enough to be pliable in that it can be bent into intricate designs without cracking.
+2. Silver can be drawn into various narrow-gauges for wire [see @rings&thingsstaffWireJewelry1012021]
+due to its ductility [@najGoldPlatinumPalladium2022], for delicate jewellery making.
+3. As silver is malleable, it can be rolled into thin sheets
+[@najGoldPlatinumPalladium2022; @sticeJewelryMetalSheet2021]; 4. Silvers' reflecting ability
+is very good [@najGoldPlatinumPalladium2022]; and has been used in the production of
+mirrors since early times for example, in China around 500CE, by covering metallic 
+objects with silver-mercury amalgams [@acsilverHistoryMirrors2023]; and in modern times
+by applying a thin layer of molten silver onto the back of a plate of glass in a vacuum
+[@mirrorhistoryHistoryMirrorsEarliest2023]. Finally, the fifth property of
+silver is that it can be tempered for the production of items such as knife blades
+[@albertCanYouMake2020; @najGoldPlatinumPalladium2022].
+
+On a side note, a negative property of silver is that, unlike gold, it can be tarnished
+by nitric and sulphuric acids [@najGoldPlatinumPalladium2022].
+
+
+# Assignment 1.9
+
+## Name THREE different types of watch glasses (crystals) and describe an advantage for each one.
+
+Three different types of watch glasses (crystals) available are: 
+
+1. Plastic (or acrylic glass).
+2. Mineral sapphire.
+3. Synthetic sapphire [@najWatchesClocks2022].
+
+There are advantages for each type of watch crystal, for example, an advantage of plastic 
+crystals is that they are relatively inexpensive and used in cheaper models. Mineral
+sapphire crystals are common in affordable watches and have the advantage of being more
+scratch-resistant than plastic. Synthetic sapphire crystals offer the greatest scratch
+resistance and are used in prestigious watch brands [@penderTypesWatchCrystals2022].
+
+
+# Assignment 1.10
+
+## A vital component of most necklaces is the clasp or fastener. Describe THREE different types of fastener & list ONE feature for each one.
+
+Three types of fastener for necklaces are:1. claw-style , 2. spring-ring; and 3.
+threaded-screw clasps [@najJewellery2022].
+
+The claw-style clasp (sometimes known as _lobster-claw_ due to its shape) is fairly
+common and easy to use by pulling a lever on the claw-side which snaps shut on closure
+[@authorityjewelry31TypesNecklace2022]. They can be large or small depending on the
+weight of the necklace design.
+
+Spring-ring clasps are very popular for necklaces due to being easy to use and affordable
+[@authorityjewelry31TypesNecklace2022]. They operate by sliding a small lever against
+a spring inside the round fastener [@weddingknowhow16TypesJewelry2021], which closes
+on release to secure the ring on the other end of the chain.
+
+Threaded-screw clasps are generally barrel-shaped and have an external thread on one
+piece and an internal thread on the other. When each piece is attached to each end
+of a necklace they are designed to screw together, holding the necklace in place.
+They come in various shapes and sizes, colours and metals, to suit items of jewellery; and
+it can be difficult to screw the separate parts together [@authorityjewelry31TypesNecklace2022; @weddingknowhow16TypesJewelry2021], especially by
+touch alone, or in front of a mirror.
+
+One feature for each fastener type described above are:
+
+1. Claw-style clasp: These are very strong clasps and suitable for heavy chains [@internationalgemsocietyJewelryNomenclatureGem2022; @weddingknowhow16TypesJewelry2021].
+2. Spring-ring clasp: Perfect for lightweight chains [@weddingknowhow16TypesJewelry2021].
+3. Threaded-screw clasp: Good for securely holding the chain of the necklace together [@authorityjewelry31TypesNecklace2022; @weddingknowhow16TypesJewelry2021].
+
+
+# Assignment 1.11
+
+## In the event of an armed raid upon your store list THREE things that you SHOULD DO and THREE that you SHOULD NOT DO
+
+In the event of an armed raid on your store, three things you _should_ do are
+
+1. Do what the thieves say without question.
+2. Give them the items they demand.
+3. Stay out of their sight (if you not in the vicinity).
+
+Three things you _should not_ do are:
+
+1. Do not take risks. Taking risks might endanger you or your staff/colleagues.
+2. Do not fight back. Risk of injury or even death is too high.
+3. Do not operate the alarm (unless you can without being noticed).
+
+All examples from The National Association of Jewellers (NAJ) Security PDF [@najSecurity2022].
+
+
+# Assignment 1.12
+
+## List SIX silverware items that you would recommend as suitable gifts for a baby girls christening.
+
+Six items of silverware suitable as gifts for a baby girl's Christening are as
+follows:
+
+1. An expanding silver bangle as it will fit the wrist as the child grows.
+2. A silver bracelet.
+3. A silver pendant.
+4. A silver drinking cup.
+5. A silver bead-charm.
+6. A silver spoon or fork.
+
+All of these items can be kept as a memento of the special occasion, some, such as
+an expanding bracelet, pendant, cup, bead-charm, spoon or fork cold be used in the
+future [@najSilverwareGifts2022]. 
+
+Words: `r wordcountaddin:::word_count()`
+
+# References
