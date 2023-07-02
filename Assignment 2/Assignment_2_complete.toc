@@ -1,0 +1,9 @@
+\contentsline {section}{Assignment 2.1:}{1}{section*.2}%
+\contentsline {subsection}{Describe fully the three named members of the Corundum family.}{1}{section*.3}%
+\contentsline {subsection}{Why do you think these gemstones are so popular in jewellery?}{4}{section*.4}%
+\contentsline {section}{Assignment 2.2:}{4}{section*.5}%
+\contentsline {subsection}{Imagine you have to give a short presentation to a discussion group who want you to talk about pearls. Write what you would say, in an interesting and informative way, covering the following details:}{4}{section*.6}%
+\contentsline {subsection}{(i) How the pearls, natural, cultured and freshwater, {[}are{]} formed.}{4}{section*.7}%
+\contentsline {subsection}{(ii) What are imitation pearls and how are they made?}{5}{section*.8}%
+\contentsline {subsection}{(iii) At the end of your presentation you are asked the following question: ``How should I look after my pearls?'' What advice would you give?}{5}{section*.9}%
+\contentsline {section}{References}{6}{section*.10}%

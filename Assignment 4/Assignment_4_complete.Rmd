@@ -1,0 +1,254 @@
+---
+title: "NAJ, JET 1: Assignment 4"
+author: "Stuart Leeds"
+date: "25 March 2023 | updated: `r format(Sys.time(), '%d %B %Y')`"
+output:
+  bookdown::pdf_document2:
+    extra_dependencies: ["float"]
+bibliography: ../common/JET1.bib
+csl: ../common/apa.csl
+link-citations: yes
+toc: yes
+---
+
+```{r setup, include=FALSE}
+library(tidyverse)
+library(knitr)
+library(kableExtra)
+
+opts_chunk$set(echo = FALSE, 
+               fig.pos = "H", 
+               out.extra = "", 
+               fig.align = "center", 
+               out.width = "75%")
+knit_hooks$set(crop = knitr::hook_pdfcrop)
+```
+
+<!-- code for figure title reference -->
+<!-- (ref:standards-citation) @thegoldsmithscompanyassayofficeWhatHallmark2023 -->
+<!-- keep -->
+
+
+# Assignment 4.1: {-}
+
+## You have received an online sales enquiry from a customer who is looking to purchase a watch for their son. In order to fully establish the customer’s specific needs you will need to ask them some discovery questions. Create an online conversation in which you will ask the customer TEN discovery based questions in order to recommend a watch that will fully meet the customer’s specific needs. {-}
+
+During the initial enquiry, we have established the customer's name and that
+there is no particular budget or price range. The following 'conversation' takes
+place over website's 'LiveChat' application $...$
+
+1.  "Good afternoon Mr. Smith. Thank you for your online enquiry. I understand
+    you are looking to buy a watch for your son's birthday. Do you mind if I ask
+    you a few questions to establish your specific needs?"
+      - "Yes, of course. Go ahead."
+2.  "Okay. Great. So, is it for a special birthday?"
+      - "Yes, it's his 18th."
+3.  "Ahh, fantastic. Very special then. When do you need it by?"
+      - "Oh, not for a few months yet."
+4.  "What have you seen so far?"
+      - "Too much. I can't make up my mind!"
+5.  "I know what you mean, there's a lot to choose from. Is your son into any
+    sports or will it be for casual, everyday wear?"
+      - "Everyday wear - he doesn't do sports."
+6.  "Is there any particular brand you're interested in?"
+      - "Not really. Just a nice looking, affordable watch."
+7.  "And what type of movement do you think he would like? We do a range of
+    automatic watches which that keep wound by movement (though they may need
+    winding after they've not been worn for a while); and also a larger range of
+    quartz-crystal watches which work by battery. We also have a small range of
+    mechanical watches which need winding every day; and of course a new range
+    of retro digital watches that were popular in the 1980's that are making a
+    comeback."
+      - "Well, I like the sound of the retro digital ones, but I think he would
+        prefer a battery one."
+8.  "Fair enough. And what kind of strap would he prefer? Most come with
+    stainless steel bracelets, but we can replace them with a leather strap of
+    his choice."
+      - "Ooh....I think the stainless steel bracelet."
+9.  "So, what about the face? Roman numerals are popular, but is there a
+    particular colour your son likes?"
+      - "Well he likes green, though I reckon he'd want just lines to mark the
+        hours."
+10. "I see what you mean. I think we have just what you're looking for. Would
+    you be able to visit our store to see our range of watches? Perhaps bring
+    your son so he can choose? That way he could feel the weight and try them on
+    to see how they look. "
+      - "That's a great idea $...$"
+
+The outcome of the conversation is that we now know what the customer is looking
+for: a quartz-crystal watch with a green face with dashed markers for the hours.
+The watch will have a stainless steel bracelet to be worn as an everyday piece,
+given as a gift for his son's 18th birthday. With no interest in brand-names,
+and a few months before the 'big day', the customer has been invited to bring
+his son to the store to choose a perfect watch. A reason being that if the son
+chooses the watch (a likely expensive purchase), there would be less chance of a
+returned item which may cause embarrassment to both parties, but more so that
+the son choosing the watch makes it a special gift.
+
+The 10 discovery questions are based on *Selling and Customer Care*
+[@najSellingCustomerCare2022], the watch information from *Watches & Clocks*
+[@najWatchesClocks2022].
+
+# Assignment 4.2: {-}
+
+## (i) A customer wants you to repair their solid link, curb chain that has snapped. List SIX questions that the customer will want to know before they are happy to leave their chain for repair. {-}
+
+Six questions the customer will want to know [the answers of] before they
+leave their chain for repair are:
+
+1.  Do you do repairs?
+      - This question obviously establishes whether or not your store offers a
+        repair service, if the customer is unsure. Explain, in this case, that
+        'yes, we do minor repairs'.
+2.  Will you have to send my chain away?
+      - Customer may be worried if their chain has to be sent to an external
+        workshop (though this question could be answered in Q1 by assuring them
+        that '$...$ we have a small workshop in-store').
+3.  How will it be repaired?
+      - Customer wants to know the process of repair, especially as the snapped
+        link is now missing. Explain how a new link would be made and fixed into
+        place with solder-paste [@goldartsHowRepairBroken2021], or nipped
+        together with small pliers [@cooksongoldJewelleryChainRepair2020].
+4.  Will the repair be visible?
+      - The customer would want to know if the repair will be noticeable.
+        Explain that the repair would not be obvious to someone who did not know
+        it was snapped.
+5.  How long will it take?
+      - A reasonable question as customer might not want to be without their
+        chain for too long. Give an estimated (and slightly extended) time-frame
+        in order to contact the customer earlier than expected.
+6.  How much will it cost?
+      - A crucial question for a customer to ask as you do not know their
+        personal circumstances. An honest answer of a rough estimate is a good
+        place to start. Discount for a regular customer? Free repair with the
+        warranty? Who knows the exact situation in this example?
+
+The six customer questions and bullet-point reasons in the list above are
+gleaned from *Selling & Customer Care* [@najSellingCustomerCare2022,
+p. 28-31], unless otherwise cited.
+
+## (ii) List SIX key identification factors you will need to record on your repair system in order to clearly identify this particular curb chain from any others you may currently have in for repair. {-}
+
+1.  Customer name.
+      - An obvious identification factor, but what if two customers with the
+        same name come in for a repair? 
+2.  Customer contact details.
+      - How would you let the customer know when the repair was complete if you
+        did not have their phone number or email address? Also helps solve the
+        two customer/same name. dilemma as no two people have the same phone
+        number.
+3.  Ticket/repair number.
+      - The ticket/repair number would be copied onto an identification card
+        whereby the string/cotton would be looped or tied to the chain to help
+        identify the customer's jewellery, and link to the repair ticket.
+4.  Curb chain type.
+      - A description of the curb chain (beyond 'solid link'). Include link
+        shape, length of chain and clasp type.
+5.  Precious metal type and fineness.
+      - Is it gold? Silver? Note the hallmarking and fineness.
+6.  Location of the snapped link.
+      - This might be obvious but if not, count links from clasp or ring to the
+        snapped one, for example, sixth link from clasp. This will help the
+        repairer to quickly see where the repair is needed. Is there any other
+        damage?
+
+Using the acronym, _LEAVE (Listen; Examine; Assess; Verify; Explain)_ should be able to gather the above information. Additionally, a customer consented photograph of the damage and whole chain would help to identify the chain from any others in for repair [@najSellingCustomerCare2022, p. 30], and also help the repairer locate the damage easily.
+
+## (iii) List SIX pieces of information that you would write in the repair instructions to ensure that the workshop has enough information in order to carry out the correct repair. {-}
+
+1.  Precious metal type.
+      - So the repairer knows which materials to use.
+2.  Precious metal fineness.
+      - So the repairer knows which grade of metal to use.
+3.  Location of the snapped link.
+      - For easy identification of snapped link.
+4.  Nature of break.
+      - This might help the repairer to know what type of force was used to
+        break the chain, whether stretched or if other links are scratched.
+5.  Repair or replace link.
+      - If the original link is available it might be possible to re-fix it if
+        not too damaged, otherwise if excessive force has stretched the link and
+        it has become too weak to bend, it might need replacing.
+6.  Any other damage.
+      - Notifies the repairer of any scratches that might need polishing out, or
+        other damage that would have occurred with the original issue (fixed
+        with customer approval, of course).
+
+# Assignment 4.3: {-}
+
+## You have just been transferred to a brand new store and one of the tasks that your Manager has asked you to undertake is to create a daily internal & external check list to ensure that the store standards comply with current company’s requirements in all areas. Compile a list of all the key areas under broad headings that you would consider to be essential in maintaining store standards on a daily basis. Then highlight specific areas to be checked under each of your headings. For example a heading may be Security & a key area would be to check that your CCTV & recording were working correctly. {-}
+
+When being transferred to a new store the first thing to do before creating a
+daily internal and external check list, is to become familiar with the store
+layout. Where are the alarm systems; panic-buttons; movement detectors; safe(s),
+etc., located? What are the alarm and safe codes? You should have been briefed
+on these already with some kind of relocation package.
+
+Internal check list:
+
+1.  Entering the store at opening time.
+      - Make sure it is a two-person exercise. One person who knows the alarm
+        code unlocks and opens the front door, enters and relocks the door
+        whilst the other person observing for the shop from a distance until an
+        all-clear is given.
+      - On entering, disable the alarm and check for intruders.
+      - Signal to second person outside (they know the safe code/key). Let them
+        in if not followed by a stranger.
+      - Relock door.
+      - Have the other person unlock the safe. Prepare the shop.
+      - Once prepared, unlock front door to welcome customers.
+
+2.  During opening hours.
+      - Make sure customers are attended to.
+      - Do not leave display cabinets/windows open or unlocked at any time.
+      - Show goods as far from the door as possible (especially high-value
+        items).
+      - Do not take more than one pad out of display case/window.
+      - Be extra vigilant at lunchtime or if staff are on holiday, due to
+        potential staff-shortages.
+
+3.  In the event of a raid/theft.
+      - be hyper-vigilant to be prepared.
+      - do not panic - remain calm (difficult in a high-stress event, but
+        remember your training).
+      - try and remember robber details (voice/height/size/clothing/face if not
+        masked).
+      - if you are not 'in the room' stay out of sight.
+      - push alarm if you can without being seen to do so.
+      - let them take what they want.
+      - it may only be a few minutes, but your life is worth more than our
+        stock.
+
+4.  End of trading.
+      - make sure everything is away (pads/other stock/float, etc) in their
+        proper place.
+      - make sure display cabinets/windows/safe(s) are locked (they should be
+        given the usual routine above).
+      - ensure security lights are on and main lights are off.
+      - make sure staff safely leave (you (door-key holder) and safe-key holder
+        remain until staff have left).
+      - safe-key holder leaves and watches shop from distance.
+      - you (or the door-key holder) leaves last after setting alarm.
+      - Reverse these roles often to prevent possible familiarity by outsiders
+        (same for opening store).
+
+External check list:
+
+1.  Exiting the store.
+      - Reverse the 'entering store' procedure but check for stragglers or
+        chancers (suspicious people lingering or hiding, inside or outside) -
+        make sure every customer is out of the building.
+      - Be aware of your surroundings, especially at night (Winter time as it
+        will be dark when closing).
+
+2.  Going home.
+      - Use two or three different routes to get to your car (bus, transport),
+        check you are not being followed.
+
+Information for the internal and external check list from *Security*
+[@najSecurity2022].
+
+Words: `r wordcountaddin::word_count()`
+
+
+# References {-}
