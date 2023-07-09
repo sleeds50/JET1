@@ -1,7 +1,7 @@
 ---
 title: "NAJ, JET 1: Project"
 author: "Stuart Leeds"
-date: "24 April 2023 | updated: `r format(Sys.time(), '%d %B %Y')`"
+date: "24 April 2023 | updated: 8 June 2023"
 output:
   bookdown::html_document2:
     toc: true

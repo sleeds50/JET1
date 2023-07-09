@@ -1,7 +1,7 @@
 ---
 title: "NAJ, JET 1: Assignment 2"
 author: "Stuart Leeds"
-date: "27 January 2023 ~ (updated: `r format(Sys.time(), '%d %B %Y')`)"
+date: "27 January 2023 ~ (updated: 19 March 2023)"
 output:
   bookdown::pdf_document2:
     extra_dependencies: ["float", "fontawesome5"]

@@ -1,7 +1,7 @@
 ---
 title: "NAJ, JET 1: Assignment 1"
 author: "Stuart Leeds"
-date: "`r Sys.Date()`"
+date: "`21 January 2023"
 output: pdf_document
 bibliography: ../common/JET1.bib
 csl: ../common/apa.csl
