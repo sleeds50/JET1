@@ -13,4 +13,9 @@ The completed/presentable assignments are found in the .pdf files:
 since RStudio lost the knit-to-pdf function (-_-), now reconverted to PDF, though 
 the [HTML](Project.html) document looks better in my opinion).
 
+---
+To see the HTML rendered on a browser right-click the hyperlink above and select 'copy link'.
+Then paste it in the text box at [GitHub & BitBucket HTML Preview](https://htmlpreview.github.io/). Click the [Preview] button.
+---
+
 All assignments achieved top marks and a pass for the course.
