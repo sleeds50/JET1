@@ -23,6 +23,16 @@ opts_chunk$set(echo = FALSE,
 knit_hooks$set(crop = knitr::hook_pdfcrop)
 ```
 
+<!-- code for figure title reference -->
+(ref:debeerHist) @debeersBeersDiamondHistory2023
+(ref:giaPosition) @giaWhatGIAPosition2023
+(ref:najDiamonds) @najDiamonds2022
+(ref:giaColour) @giaDiamondColor2023
+(ref:giaClarity) @giaWhatDiamondClarity2023
+(ref:giaCut) @giaDiamondCut2023
+<!-- keep -->
+
+
 # Question 1.1 {-}
 
 ## i) Give a brief summary of diamonds formation include a timeline of first discoveries {-}
@@ -53,7 +63,7 @@ during ancient times [@najDiamonds2022] and were first mined over 4000 years ago
 [@dundekDiamonds2022, p. 11]. Modern dating constraints prevent the inclusion of
 India on Figure 1.
 
-```{r firsts, fig.cap="Timeline of First Discoveries. Image: Author's own. Sources: [@debeersBeersDiamondHistory2023; @giaWhatGIAPosition2023; @najDiamonds2022]", out.width="100%"}
+```{r firsts, fig.cap="Timeline of First Discoveries. Image: Author's own. Sources: (ref:debeerHist); (ref:giaPosition); (ref:najDiamonds)", out.width="100%"}
 
 include_graphics("./images/first_discoveries.png")
 
@@ -97,7 +107,7 @@ side of the stone above the girdle, under certain lighting conditions
 pre-graded master stone, it must be difficult to determine the difference
 between a 'D' and 'E' grading, even for a trained and experienced gemologist.
 
-```{r colour, fig.cap="The GIA Colour Scale. Source: based on @giaDiamondColor2023"}
+```{r colour, fig.cap="The GIA Colour Scale. Source: based on (ref:giaColour)"}
 include_graphics("./images/dcolour.jpg")
 ```
 
@@ -141,12 +151,12 @@ clar_tab <- tribble(
 ```{r clarity}
 
 kbl(clar_tab, booktabs = TRUE, row.names = TRUE, escape = FALSE,
-      caption = "The GIA Clarity Scale in table format. Source: based on @giaWhatDiamondClarity2023") |> 
+      caption = "The GIA Clarity Scale in table format. Source: based on (ref:giaClarity)") |> 
   kable_classic() |> 
   kable_styling(full_width = FALSE)
 ```
 
-```{r inclusions, fig.cap="Examples of Inclusion Differences. Source: @giaWhatDiamondClarity2023"}
+```{r inclusions, fig.cap="Examples of Inclusion Differences. Source: (ref:giaClarity)"}
 include_graphics("./images/inclusions.jpg")
 ```
 
@@ -155,7 +165,7 @@ table (crown); and below the girdle (pavilion) - see Figure \@ref(fig:dcut). The
 cut is the only one of the 4 C's to be made by human contact, the others by
 nature [@dundekDiamonds2022; @najDiamonds2022].
 
-```{r dcut, fig.cap="The Sections of a Cut Diamond. Source: @giaDiamondCut2023"}
+```{r dcut, fig.cap="The Sections of a Cut Diamond. Source: (ref:giaCut)"}
 include_graphics("./images/dcut.jpg")
 ```
 
