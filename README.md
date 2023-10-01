@@ -9,8 +9,8 @@ The completed/presentable assignments are found in the .pdf files:
 - [Assignment_2_complete](Assignment_2_complete.pdf)
 - [Assignment_3_complete](Assignment_3_complete.pdf)
 - [Assignment_4_complete](Assignment_4_complete.pdf)
-- [CopyOfProject](CopyOfProject.pdf) (originally done as [Project.html](Project.html) 
+- [CopyOfProject](CopyOfProject.pdf) (originally presented as [Project.html](Project.html) 
 since RStudio lost the knit-to-pdf function (-_-), now reconverted to PDF, though 
-the HTML document looks better in my opinion).
+the [HTML](Project.html) document looks better in my opinion).
 
 All assignments achieved top marks and a pass for the course.
